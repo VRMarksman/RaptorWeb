@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+:root {
+  --bs-baige: #F6F6F6;
+  --bs-tan: #D9CAB3;
+  --bs-green: #6D9886;
+  --bs-black: #212121;
+  --bs-grey: #404040;
+  --bs-darkg: #3a6e58;
+}
+
+body {
+  font-fam: "Oswald", sans-serif;
+}
+
+/* Nav bar  */
+.navbar-space {
+  margin: 120px auto 30px;
+}
+
+.nav-logo {
+  height: 90px;
+  padding: -15px 25px 0;
+  margin: 25px 0 Auto 0;
+}
+
+.navbar-brand {}
+
+.main-font {
+  font-family: 'Oswald', sans-serif;
+  color: var(--bs-baige);
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: var(--bs-baige);
+  font-size: 2.5rem;
+}
+
+.nav-font {
+  font-family: 'Oswald', sans-serif;
+  color: var(--bs-baige);
+  font-size: 2rem;
+}
+
+.dropdown-font {
+  font-family: 'Oswald', sans-serif;
+  color: var(--bs-baige);
+  font-size: 1.2rem;
+}
+
+.body-font {
+  font-family: 'Oswald', sans-serif;
+  color: var(--bs-black);
+  font-size: 1.5rem;
+}
+
+.section-1 {
+background-color: var(--bs-tan);
+}
+.dropdown-toggle::after {
+  content: none;
+}
+
+.btn-bios {
+  margin: 0 -5px;
+}
+
+.bg-baige {
+  background-color: var(--bs-baige);
+}
+
+.bg-tan {
+  background-color: var(--bs-tan);
+}
+
+.bg-green {
+  background-color: var(--bs-green);
+}
+
+.bg-black {
+  background-color: var(--bs-black);
+  width: auto;
+}
+
+.width-auto {
+  width: auto;
+}
+
+.bg-grey {
+  background-color: var(--bs-grey);
+}
+
+.nav-hover:hover {
+  color: var(--bs-baige);
+  background-color: var(--bs-grey);
+}
+
+.nav-hover:focus {
+  color: var(--bs-baige);
+  background-color: var(--bs-grey);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(246, 246, 246, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.col-style {
+  border: 15px solid;
+  border-radius: 20px;
+  border-color: var(--bs-tan);
+  background-color: var(--bs-tan);
+}
+
+.Champ-title {
+  font-size: 2rem;
+}
+.Champ-text {
+  font-size: 1.6rem;
+}
+
+.image-autorange {
+  width: 95%;
+  max-resolution: 500px;
+}
+
+.space-margin {
+  margin: 10px 0;
+}
+
+.middle-align {
+  margin: auto auto auto auto;
+  text-align: center;
+}
+
+.overall-width-margin {
+  margin: auto 0px;
+}
+
+/* INFO ICONS */
+.info-icons {
+  background-color: var(--bs-tan);
+  margin: 30px 0 30px;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-box {
+  margin: 10px auto;
+  width: auto;
+  max-width: 250px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: var(--bs-green);
+  background-color: var(--bs-baige);
+}
+
+.icon-heading {
+  font-size: 2rem;
+}
+
+.icon-text {
+  font-size: 1rem;
+}
+
+.icon {
+  margin: 15px;
+  color: var(--bs-green);
+}
+
+.icon-box:hover .icon {
+  color: Var(--bs-darkg);
+}
+
+/* Player Images */
+.player-photo-section {
+  padding: 3em;
+  background-color: var(--bs-tan);
+  text-align: center;
+}
+
+.player-img {
+  width: 50%;
+  border-radius: 100%;
+  background-color: var(--bs-grey);
+}
+
+#carouselExampleIndicators {
+  width: auto;
+  margin: auto;
+}
+
+.carousel-indicators {
+  margin: 0 Auto -50px;
+  width:200px;
+  background-color: var(--bs-green)
+}
+
+.carousel-control-next-icon {
+  background-color: var(--bs-green);
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.carousel-control-next-icon:hover {
+  background-color: var(--bs-darkg);
+}
+
+.carousel-control-prev-icon {
+  background-color: var(--bs-green);
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.carousel-control-prev-icon:hover {
+  background-color: var(--bs-darkg);
+}
+
+/* League Cards */
+.League-Cards {
+  padding: 3em;
+  background-color: var(--bs-tan);
+  text-align: center;
+}
+
+  .card-section-heading {
+    font-size: 3rem;
+    padding-bottom: 30px;
+  }
+
+  .card-header-text{
+    background-color: var(--bs-darkg);
+    color: var(--bs-baige);
+    font-size: 3rem;
+  }
+
+  .card-s1-height{
+    height:200px;
+  }
+  .card-s2-height{
+    height:175px;
+  }
+  .card-image{
+    object-fit:cover;
+    max-height: 200px;
+    margin: auto;
+  }
+
+  .card-button{
+background-color: var(--bs-darkg);
+    color: var(--bs-baige);
+  }
+
+  .card-button:hover{
+    background-color: var(--bs-baige);
+        color: var(--bs-darkg);
+        border-color: var(--bs-darkg);
+        font-weight: bold;
+  }
