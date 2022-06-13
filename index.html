@@ -15,7 +15,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   <!-- Style Sheets -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Sacramento&display=swap" rel="stylesheet">
@@ -106,57 +106,59 @@
 
   <!-- Player Photo Section -->
 
-  <div class="player-photo-section width-auto">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="3000" data-pause="hover">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 6"></button>
+  <div class="player-photo-section">
+    <h2 class="player-photo-title">Meet the team!</h2>
+    <div class="carosel-inner-width">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="3000" data-pause="hover">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="player-photo MarksmanPhoto">
+              <img class="player-img" src="https://media.discordapp.net/attachments/959505236186251296/986002835567165520/MarksmanRaptor.png?width=671&height=606" alt="Marksman-Raptor.png">
+              <h3 class="player-name"><strong>Captain, Sniper</strong></h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="player-photo DistortedPhoto">
+              <img class="player-img" src="https://media.discordapp.net/attachments/959505236186251296/986002683754319902/DistortedRaptor.png?width=661&height=605" alt="Distorted-Raptor.png">
+              <h3 class="player-name"><strong>Founder, Ladies-man</strong></h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="player-photo MasinoPhoto">
+              <img class="player-img" src="https://media.discordapp.net/attachments/959505236186251296/986002942530297876/MasinoRaptor.png?width=661&height=605" alt="Masino-Raptor.png">
+              <h3 class="player-name"><strong>Purple, Powerful</strong></h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="player-photo SoldierzPhoto">
+              <img class="player-img" src="https://media.discordapp.net/attachments/959505236186251296/986003024713494579/SoldierzRaptor.png?width=661&height=605" alt="Soldierz-Raptor.png">
+              <h3 class="player-name"><strong>Goated, Deadly</strong></h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="player-photo TigerPhoto">
+              <img class="player-img" src="https://media.discordapp.net/attachments/959505236186251296/986003054451101786/TigerRaptor.png?width=671&height=606" alt="Tiger-Raptor.png">
+              <h3 class="player-name"><strong>Exotic, Ferocious</strong></h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="player-photo MarksmanPhoto">
-            <img class="player-img" src="images\MarksmanRaptor2.png" alt="Marksman-Raptor.png">
-            <h3 class="player-name"><strong>Captain, Sniper</strong></h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="player-photo DistortedPhoto">
-            <img class="player-img" src="images\DistortedRaptor.png" alt="Distorted-Raptor.png">
-            <h3 class="player-name"><strong>Founder, Ladies-man</strong></h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="player-photo MasinoPhoto">
-            <img class="player-img" src="images\MasinoRaptor.png" alt="Masino-Raptor.png">
-            <h3 class="player-name"><strong>Purple, Powerful</strong></h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="player-photo SoldierzPhoto">
-            <img class="player-img" src="images\SoldierzRaptor.png" alt="Soldierz-Raptor.png">
-            <h3 class="player-name"><strong>Goated, Deadly</strong></h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="player-photo TigerPhoto">
-            <img class="player-img" src="images\TigerRaptor.png" alt="Tiger-Raptor.png">
-            <h3 class="player-name"><strong>Exotic, Ferocious</strong></h3>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-
   </div>
 
   <!-- League Card Section -->
@@ -211,7 +213,7 @@
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header card-header-text py-3">
             <h3 class="my-0 fw-normal">VREL</h3>
-                        <h3 class="my-0 fw-normal">Contractor$</h3>
+            <h3 class="my-0 fw-normal">Contractor$</h3>
           </div>
           <div class="card-body">
             <div class="card-s1-height">
