@@ -181,6 +181,11 @@ background-color: var(--bs-tan);
   text-align: center;
 }
 
+.player-photo-title{
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
+
 .player-img {
   width: 50%;
   border-radius: 100%;
@@ -192,6 +197,11 @@ background-color: var(--bs-tan);
   margin: auto;
 }
 
+
+.carosel-inner-width{
+  max-width:600px;
+  margin:auto;
+}
 .carousel-indicators {
   margin: 0 Auto -50px;
   width:200px;
